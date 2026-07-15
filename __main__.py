@@ -41,7 +41,7 @@ if not bucket_specs:
 # project, so a raw "uploads" name will collide across tenants. Prefix it.
 
 config = pulumi.Config()
-tenant_id = config.require("tenant_id")
+tenant_id = "dhruv"
 
 # --- create one bucket per manifest entry -------------------------------
 
