@@ -16,3 +16,9 @@ buckets:
     storage_class: STANDARD
     versioning: false
     force_destroy: true
+  
+  - name: sandeep-demo
+    location: asia-south1
+    storage_class: STANDARD
+    versioning: false
+    force_destroy: true
