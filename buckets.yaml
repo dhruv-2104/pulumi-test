@@ -1,0 +1,18 @@
+buckets:
+  - name: uploads
+    location: asia-south1
+    storage_class: STANDARD
+    versioning: false
+    force_destroy: false
+
+  - name: archives
+    location: asia-south1
+    storage_class: NEARLINE
+    versioning: true
+    force_destroy: false
+
+  - name: scratch
+    location: asia-south1
+    storage_class: STANDARD
+    versioning: false
+    force_destroy: true
