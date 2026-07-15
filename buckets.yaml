@@ -16,9 +16,3 @@ buckets:
     storage_class: STANDARD
     versioning: false
     force_destroy: true
-
-  - name: testing
-    location: asia-south1
-    storage_class: STANDARD
-    versioning: false
-    force_destroy: true
